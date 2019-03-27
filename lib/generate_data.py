@@ -37,7 +37,7 @@ if __name__ == "__main__":
 """
 hadoop fs -rm -r -f -skipTrash /users/vagrant/events/2019/03/27/12/LOGS;
 /usr/lib/spark/bin/spark-submit --master local[1] \
-demo_spark_job/lib/generate_data.py \
+lib/generate_data.py \
 --o_dummy_logs /users/vagrant/events/2019/03/27/12/LOGS \
 --event_count 100
 """

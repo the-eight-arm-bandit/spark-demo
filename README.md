@@ -59,5 +59,5 @@ scp \
 -o PasswordAuthentication=no \
 -o IdentityFile=/path/to/private_key \
 -o IdentitiesOnly=yes \
--r ../demo_spark_job vagrant@127.0.0.1:/home/vagrant/demo_spark_job
+-r ../spark-demo vagrant@127.0.0.1:/home/vagrant/spark-demo
 ```

@@ -1,6 +1,6 @@
 import unittest
 
-from demo_spark_job.lib.parse_logs import field_from_log
+from lib.parse_logs import field_from_log
 
 
 class TestFieldsFromEventLog(unittest.TestCase):
@@ -13,5 +13,5 @@ class TestFieldsFromEventLog(unittest.TestCase):
 
 
 """
-PYTHONPATH=/usr/lib/spark/python:$PYTHONPATH py.test demo_spark_job/tests/test_parse_logs.py
+PYTHONPATH=/usr/lib/spark/python:$PYTHONPATH py.test tests/test_parse_logs.py
 """

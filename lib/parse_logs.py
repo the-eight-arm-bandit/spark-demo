@@ -85,7 +85,7 @@ if __name__ == "__main__":
 """
 hadoop fs -rm -r -f -skipTrash /users/vagrant/events/2019/03/27/12/TAGS;
 /usr/lib/spark/bin/spark-submit --master local[1] \
-demo_spark_job/lib/parse_logs.py \
+lib/parse_logs.py \
 --i_tag_logs /users/vagrant/events/2019/03/27/12/LOGS \
 --o_results /users/vagrant/events/2019/03/27/12/TAGS
 """
